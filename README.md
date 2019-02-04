@@ -7,3 +7,8 @@ Please [open an issue](https://github.com/Yann-P/devblog/issues) if you find any
 ## December
 
 - [Installing Haxe 4.0.0-preview on Ubuntu 18.04](20181208-install-haxe-4.0.0-preview-ubuntu-18.04.md)
+
+# 2019
+## February
+
+- [Path following recipes in Phaser 3](20190131-generic-path-follower-phaser-3.md)
