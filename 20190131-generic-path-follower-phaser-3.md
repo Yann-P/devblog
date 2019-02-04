@@ -1,4 +1,4 @@
-# Path following receipes in Phaser 3
+# Path following recipes in Phaser 3
 
 Sometimes you want your game objects to follow a predefined path, and Phaser makes this very easy. In this tutorial we take advantage of the `get`/`set` syntax in javascript to build a generic function that can be passed as the target of a [Tween](https://photonstorm.github.io/phaser3-docs/Phaser.Tweens.Tween.html) to control the position over a [Path](https://photonstorm.github.io/phaser3-docs/Phaser.Curves.Path.html). 
 
