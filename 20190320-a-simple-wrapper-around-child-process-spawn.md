@@ -8,10 +8,11 @@ Here is a simple wrapper that abstracts a subprocess as a promise, that I use re
 
 ```typescript
 
-const { code, signal, stderr, stdout } = await spawnWrapper();
+const { code, signal, stderr, stdout } = await spawnWrapper('ls', ['-a']);
 if(code !== 0 || signal) {
     throw new Error(`Command failed with code ${code}, signal ${signal}`);
 }
+// do something with stdout/stderr if you need
 
 ```
 
